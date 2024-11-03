@@ -1,0 +1,8 @@
+- Cut a cake in 8 pieces in 3 cuts max:
+	one horizontal and 2 verticles in crosses
+	
+- Whenever we cut diagonal corners of the chessboard, we cut equal color squares also.
+
+- Number of Pieces that can be cut from a circle with n lines = 1 + (n*(n+1)/2)
+
+- Any line that passes through the center of the rectangle divides the rectangle into two equal halves.

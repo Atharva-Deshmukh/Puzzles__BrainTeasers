@@ -1,0 +1,170 @@
+What word begins and ends with an ‘e’ but only has one letter?
+- Envelope, since and envelope has only one letter. 
+ 
+What can travel around the world while staying in one spot?
+- Stamp
+
+What has a heart that doesn’t beat?
+- Artichoke (a fruit), हाथीचक
+
+What invention lets you look right through a wall?
+- A window
+
+What can you break, even if you never pick it up or touch it?
+- A promise/ a word
+
+This belongs to you, but everyone else uses it.
+- Your name
+
+What has many teeth but can’t bite?
+- Comb
+
+What is cut on a table, but is never eaten?
+- a deck of cards
+
+What can you catch but not throw?
+- cold
+
+This is as light as a feather, yet no man can hold it for long. What am I?
+- Breath
+
+What is harder to catch the faster you run?
+- Breath
+
+What has to be broken before you can use it?
+- An egg
+
+I have no life, but I can die, what am I?
+- A battery
+
+What can run but never walk, has a mouth but never talk, has a head but never weeps, has a bed but never sleeps?
+- River
+
+What is always running but never moves, has no mouth but has a powerful roar?
+- River
+
+What can fill a room but take up no space?
+- Light (remember, air takes space)
+
+What gets wetter as it dries?
+- Towel
+
+What has one eye but cannot see?
+- A needle
+
+What has a spine but no bones?
+- A book
+
+What has words, but never speaks?
+- A book
+
+What has a face, two hands, and a tail, but no body?
+- A coin
+
+What has no legs but can do a split?
+- A banana
+
+What is easy to get into, but hard to get out of?
+- Trouble
+
+What can you serve but never eat?
+- Volleyball
+
+What can fly but has no wings?
+- Time
+
+What goes through cities and fields, but never moves?
+- Road
+
+What is it that lives if it is fed, and dies if you give it a drink?
+- Fire
+
+What has a tongue but cannot talk, gets around a lot but cannot walk?
+- Shoe
+
+What kind of room has no doors or windows?
+- Mushroom
+
+A man pushes his car to a hotel and tells the owner he’s bankrupt. Why?
+- The man is playing monopoly game.
+
+Two men were born in the same year, on the same day, in the same city, and they have the same parents. 
+However, they are not twins. How is this possible?
+- Ask question to interviewer: by day, do u mean date as well?
+Answer: they are two of the triplets
+
+A man went to a party and drank some of the punch. He then left early. 
+Everyone else at the party who drank the punch died of poisoning. Why did the man not die?
+- The poison was in the ice, he left early and the ice was not melted till then.
+
+A cowboy arrives in town on Friday, stays for three days, and then leaves on Friday. How did he do it?
+- Friday was his horse.
+
+If you overtake the last person in a running race, what place are you in?
+- Ask question to the interviewer: should I consider myself in the race or not?
+  If considered myself, I would be at second last place, else I would be at last place.
+  
+A train leaves from New York City heading to Los Angeles at 150 miles per hour. 
+At the same time, a train leaves from Los Angeles heading to New York City at 200 miles per hour. 
+Which train will be farther from New York City when they meet?
+- Just a bit confusion here :), they will be at same distance when they meet.
+
+Can you complete the following statement: “I am the beginning of the end and the end of time and space. 
+I am essential to creation, and I surround every place. What am I?”
+- Letter "E".
+
+There are 100 lockers in a row, all initially closed. A person walks down the row and opens every locker. 
+Then, another person walks down the row and closes every second locker (starting from the second locker). 
+Next, a third person walks down the row and changes the state (opens it if it’s closed or closes it if it’s open) 
+of every third locker (starting from the third locker). This continues until 100 people have walked down the row. 
+At the end, which lockers are open?
+- Each locker is toggled once for every divisor it has. For example, Locker 12 will be toggled by Person 1 
+  (because 1 divides 12), Person 2 (because 2 divides 12), Person 3 (because 3 divides 12), Person 4, Person 6, 
+  and Person 12.
+  Since, initially, lockers were closed, so,
+  Lockers are opened when toggled an odd number of times.
+  Lockers are closed when toggled an even number of times.
+  
+  Most numbers have an even number of divisors. For example, 12 has divisors 1, 2, 3, 4, 6, and 12, 
+  which are 6 divisors (an even number). So, Locker 12 will end up being closed because it's toggled 
+  an even number of times.
+  
+  However, perfect squares (like 1, 4, 9, 16, 25, etc.) have an odd number of divisors. 
+  For instance, 16 has divisors 1, 2, 4, 8, and 16, but since 4 is repeated (it’s a square root of 16), 
+  it only counts once, making the number of divisors odd. Hence, Locker 16 will be toggled an odd number 
+  of times and will remain open.
+  
+  Final Answer: 
+  Only lockers whose numbers are perfect squares will remain open. These lockers are:
+  1, 4, 9, 16, 25, 36, 49, 64, 81, and 100.
+
+
+You are in a room with two doors. One door leads to certain death, and the other door leads to freedom. 
+There are two guards, one in front of each door. One guard always tells the truth, and the other always lies. 
+You don’t know which guard is which, and you don’t know which door leads to freedom. 
+You can only ask a single question to one of the guards. What do you ask to find the door to freedom?
+
+- Ask interviewer: does the guards know about each other?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
