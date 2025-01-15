@@ -145,6 +145,51 @@ You don’t know which guard is which, and you don’t know which door leads to 
 You can only ask a single question to one of the guards. What do you ask to find the door to freedom?
 
 - Ask interviewer: does the guards know about each other?
+  This is essential to solving the puzzle because your question will rely on their awareness of the other 
+  guard's behavior (truth-telling or lying).
+
+  Following scenarios I can think of:
+  GL: Guard that lies
+  GT: Guard that tells the truth
+
+                                            Hell       Heaven
+                                             GT          GL
+
+                                            Hell       Heaven
+                                             GL          GT
+
+
+                                            Heaven       Hell
+                                              GT          GL
+
+                                            Heaven       Hell
+                                              GL          GT
+
+  
+  Basically, there is the repeatition in the guard and gate position and guard type
+  So, basically there are two scenarios:
+  Also, GUARDS KNOW ABOUT EACH OTHER.
+
+
+                                            Heaven       Hell
+                                              GT          GL
+                                              []
+  
+      - If I were to ask you to which door the other guard would point out?
+      - Answer: Other guard points out the gate to the hell only
+
+                                            Heaven       Hell
+                                              GL          GT
+                                              []
+
+      - If I were to ask you to which door the other guard would point out?
+      - Answer: Other guard points out the gate to the hell only
+                    
+      So, choose opposite gate after the answer.
+
+
+
+
 
 
 
