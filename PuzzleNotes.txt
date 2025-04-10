@@ -6,3 +6,5 @@
 - Number of Pieces that can be cut from a circle with n lines = 1 + (n*(n+1)/2)
 
 - Any line that passes through the center of the rectangle divides the rectangle into two equal halves.
+
+- diagonally opposite corners of a 8 * 8 chessboard are of same color
