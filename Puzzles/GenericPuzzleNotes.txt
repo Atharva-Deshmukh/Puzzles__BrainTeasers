@@ -33,18 +33,21 @@ Solution:
 	  (Since you too 6 pills from bottle 6)
 
 Puzzle:
-	Last Palindrome Date Before 10/02/2001
+	Last Palindrome Date Before 10/02/2001  -> 2nd October 2001
 	10/02/2001 -> "10022001"
-	Format: DDMMYYYY
+	Format: MMDDYYYY 
+	in YYYY => reverse(first two Y's) make day    --> max valid = 31
+	           reverse(second two Y's) make month --> max valid = 12
 
 Solution:
 	- Since, each year has only one palindrome date, we won't get anything now in year 2001.
 	  So, search before year 2001
-	- Year 2000 => X since that will make date 00 -> NOT POSSIBLE
-	- Year 1999 => X since that will make date 99 -> NOT POSSIBLE
+	- Year 2000 => X since that will make day 00 -> NOT POSSIBLE
+	- Year 1999 => X since that will make day 99 -> NOT POSSIBLE
 	.
+	. Year 1400 => X since that will make day 41 -> NOT POSSIBLE
 	.
-	. MM should become 12 in palindrome MAX. -> YYYY-12-DD
-	. DD should become 31 in palindrome MAX. -> YYYY-12-31 -> also a valid date
-	. this brings us to YYYY -> 1321
-	- Year 1999 => X since that will make date 99 -> NOT POSSIBLE
+	. Year 1300 => Possible since that will make day 31 (valid day)
+	. 1380 -> 08/31 -> valid date as 31st august in MMDD Format
+	Hence last palindrome date = 08/31/1380
+	
