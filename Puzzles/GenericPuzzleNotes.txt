@@ -7,3 +7,20 @@
 - Number of Pieces that can be cut from a circle with n lines = 1 + (n*(n+1)/2)
 
 - Any line that passes through the center of the rectangle divides the rectangle into two equal halves.
+
+
+Puzzle:
+	Given 10 identical bottles of identical pills (each bottle contains 100 pills).
+	 Out of 10 bottles 9 have 1 gram of pills but 1 bottle has pills of the weight of 1.1 gram. 
+	 Given a measurement scale, how would you find the heavy bottle? You can use the scale only once. 
+
+Solution:
+	- take, 1 pill from the first bottle, 2 pills from the second bottle, 3 pills from the third bottle...
+	- In total, you'll be taking 1 + 2 + 3 + ... + 10 pills. This is a mathematical sequence that adds 
+	  up to 55 pills => (n * (n + 1))/2 = (10 x 11 / 2) when ALL PILLS WILL BE = 1g each	
+	- if the weight shows 55.1 grams, the extra 0.1 gram comes from the first bottle 
+	  (since you took 1 pill from it).
+    - if the weight shows 55.2 grams, the second bottle has the heavier pills 
+	  (because you took 2 pills from it).
+    - if the weight shows 55.6 grams, the 6th bottle has the heavier pills 
+	  (Since you too 6 pills from bottle 6)
