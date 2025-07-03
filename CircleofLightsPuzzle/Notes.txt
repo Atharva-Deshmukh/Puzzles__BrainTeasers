@@ -1,0 +1,39 @@
+Puzzle:
+    There is a circle of N > 2 lights with a switch next to each of them. 
+    Each switch can be flipped between two positions, thereby toggling the on/off states of three 
+    lights: its own and the two lights adjacent to it. Initially, all the lights are off. 
+    Design an algorithm for turning all the lights on by flipping the minimum number of switches. 
+
+Ask the interviewer: 
+- Is the switch physically present between the two bulbs?
+  In that case, a single switch can toggle states of two bulbs only that are adjacent to it.
+
+- Why the original puzzle says each switch toggles three lights:
+  The original puzzle assumes a circular layout where each switch is associated with one bulb and 
+  affects that bulb plus its two neighbors. This is a logical association, not necessarily a physical one. 
+  The switch is conceptually tied to a bulb and its adjacent bulbs, not placed between bulbs.
+
+ Solution: 
+    Since all the lights are off initially, it is obvious that the final state of the lights depends 
+    only on the parity(odd or even) of the number of times each switch is flipped and does not depend 
+    on the order in which the switches are manipulated. 
+    
+    1 switch flip can light 3 bulbs.
+    Assuming the lights are numbered from 1 to N in the clockwise order, we have two cases.
+
+    N is divisible in 3:
+    - 3 bulbs --> 1 switch flip lights all the bulbs 
+    - 6 bulbs --> 2 switch flips lights all the bulbs (3 bulbs + 3 bulbs) --> N/3 flips
+    - 9 bulbs --> 3 switch flips lights all the bulbs
+    - 12 bulbs --> 4 switch flips lights all the bulbs
+
+    N is NOT divisible in 3:
+    - If we flip switch of (3k + 1)th bulb as above, then, at last there will be 
+      one or two bulbs that will be still left off.
+      And when we will flip one of the switches of these left off bulbs, then some of the existing on 
+      lights will be turned off. So, best way will be to flip all the switches
+
+    - 4 bulbs --> 4 switch flips lights all the bulbs 
+    - 5 bulbs --> 5 switch flips lights all the bulbs  --> N flips
+    - 7 bulbs --> 7 switch flips lights all the bulbs
+    - 8 bulbs --> 8 switch flips lights all the bulbs
