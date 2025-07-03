@@ -1,3 +1,6 @@
+												CONCEPTS
+												--------
+
 - Cut a cake in 8 pieces in 3 cuts max:
 	one horizontal and 2 verticles in crosses
 	
@@ -8,6 +11,10 @@
 
 - Any line that passes through the center of the rectangle divides the rectangle into two equal halves.
 
+-  One year can have only one palindrome date as the year fixes the month and date too.
+
+										PUZZLE-WISE Solutions
+										--------------------
 
 Puzzle:
 	Given 10 identical bottles of identical pills (each bottle contains 100 pills).
@@ -24,3 +31,20 @@ Solution:
 	  (because you took 2 pills from it).
     - if the weight shows 55.6 grams, the 6th bottle has the heavier pills 
 	  (Since you too 6 pills from bottle 6)
+
+Puzzle:
+	Last Palindrome Date Before 10/02/2001
+	10/02/2001 -> "10022001"
+	Format: DDMMYYYY
+
+Solution:
+	- Since, each year has only one palindrome date, we won't get anything now in year 2001.
+	  So, search before year 2001
+	- Year 2000 => X since that will make date 00 -> NOT POSSIBLE
+	- Year 1999 => X since that will make date 99 -> NOT POSSIBLE
+	.
+	.
+	. MM should become 12 in palindrome MAX. -> YYYY-12-DD
+	. DD should become 31 in palindrome MAX. -> YYYY-12-31 -> also a valid date
+	. this brings us to YYYY -> 1321
+	- Year 1999 => X since that will make date 99 -> NOT POSSIBLE
