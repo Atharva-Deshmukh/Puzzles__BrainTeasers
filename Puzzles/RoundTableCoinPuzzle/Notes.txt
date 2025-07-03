@@ -1,0 +1,15 @@
+Puzzle:
+    Suppose two player, player A and player B have the infinite number of coins. 
+    Now they are sitting near a perfectly round table and going to play a game. 
+    The game is, in each turn, a player will put one coin anywhere on the table 
+    (not on the top of coin already placed on the table, but on the surface of the table). 
+    And the player who places the last coin on the table will win the game. 
+    Given player A will always move first suggest a strategy such that player A will always win, 
+    no matter how player B will play.
+
+Solution:
+    On the first move place the coin on the center of the table. Then player B will place his coin 
+    anywhere on the table. Now, you put your coin on the line of diameter passing through the coin 
+    placed by player B, at the same distance away from the boundary of the circle 
+    (i.e mimic his placement on the opposite side of the table).
+    If player A has space to place a coin, so will player B. Player B will run out of place before player A.
