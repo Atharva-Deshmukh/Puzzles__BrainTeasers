@@ -79,5 +79,111 @@ Solution:
 	Dice1: 0, 1, 2, 3, 4, 5
 	Dice2: 0, 1, 2, 6, 7, 8
 
+Puzzle:
+	Weight of Heavy Ball
+	There are 2187 balls, out of which 1 is heavy. Find the minimum number of attempts the 
+	balls have to be weighed for finding out the heavy ball.
+
+Solution: 
+	The minimum amount of measurements needed to be done will be equal to 7 times. 2187 = 3^7 = (729 * 3)
+	Make 3 groups of 729 each
+	G1 - 729
+	G2 - 729
+	G3 - 729
+
+	Now weigh groups in combinations
+
+    												STEP-1
+													------
+	if(G1 == G2) ==> G3 has heaviest ball       
+	if(G1  > G2) ==> G1 has heaviest ball       
+	if(G1  < G2) ==> G2 has heaviest ball  
+
+	So, we get the group where the heaviest ball lies, let it be G1
+
+	    											STEP-2
+													------
+
+	Now, divide G1 into 3 groups of 243 balls each
+	G1 - 243
+	G2 - 243
+	G3 - 243
+
+	if(G1 == G2) ==> G3 has heaviest ball       
+	if(G1  > G2) ==> G1 has heaviest ball       
+	if(G1  < G2) ==> G2 has heaviest ball
+
+	So, we get the group where the heaviest ball lies, let it be G1
+
+	    											STEP-3
+													------
+
+	Now, divide G1 into 3 groups of 81 balls each
+	G1 - 81
+	G2 - 81
+	G3 - 81
+
+	if(G1 == G2) ==> G3 has heaviest ball       
+	if(G1  > G2) ==> G1 has heaviest ball       
+	if(G1  < G2) ==> G2 has heaviest ball
+
+	So, we get the group where the heaviest ball lies, let it be G1
+
+	    											STEP-4
+													------
+
+	Now, divide G1 into 3 groups of 27 balls each
+	G1 - 27
+	G2 - 27
+	G3 - 27
+
+	if(G1 == G2) ==> G3 has heaviest ball       
+	if(G1  > G2) ==> G1 has heaviest ball       
+	if(G1  < G2) ==> G2 has heaviest ball
+
+	So, we get the group where the heaviest ball lies, let it be G1
+
+	    											STEP-5
+													------
+
+	Now, divide G1 into 3 groups of 9 balls each
+	G1 - 9
+	G2 - 9
+	G3 - 9
+
+	if(G1 == G2) ==> G3 has heaviest ball       
+	if(G1  > G2) ==> G1 has heaviest ball       
+	if(G1  < G2) ==> G2 has heaviest ball
+
+	So, we get the group where the heaviest ball lies, let it be G1
+
+	    											STEP-6
+													------
+
+	Now, divide G1 into 3 groups of 3 balls each
+	G1 - 3
+	G2 - 3
+	G3 - 3
+
+	if(G1 == G2) ==> G3 has heaviest ball       
+	if(G1  > G2) ==> G1 has heaviest ball       
+	if(G1  < G2) ==> G2 has heaviest ball
+
+	So, we get the group where the heaviest ball lies, let it be G1
+
+	    											STEP-7
+													------
+
+	Now, divide G1 into 3 groups of 1 balls each
+	G1 - 1
+	G2 - 1
+	G3 - 1
+
+	if(G1 == G2) ==> G3 has heaviest ball       
+	if(G1  > G2) ==> G1 has heaviest ball       
+	if(G1  < G2) ==> G2 has heaviest ball
+
+	So, we Finally get the heaviest ball!
+
 
 	
