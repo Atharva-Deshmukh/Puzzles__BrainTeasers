@@ -17,6 +17,23 @@
 										--------------------
 
 Puzzle:
+      Can 2 persons be with same number of hairs on their heads?
+	  One day Ram and Shyam were searching Google for finding what is the maximum number of hairs 
+	  on the human head. They found that it is 2, 00, 000. Then Shyam thought a while and suddenly 
+	  made a statement that there are at least two Bengaluru citizens who have got the exact same 
+	  number of hairs on their heads. Both of them knew the fact that the population of Bengaluru 
+	  is 1.23 crores. But Ram was still thinking whether Shyam's statement is correct or not. 
+	  Is Shyam's statement 100% correct or we need more information to deduce the truth of the statement?
+
+Solution:
+      This problem and solution are based on 'Pigeonhole principle'. There is nothing related 
+	  to probability in this and Shyam's statement is 100% correct!
+
+	  PRINCIPLE:
+	  If n items are distributed among m containers and n > m, then at least one container 
+	  must contain more than one item.
+
+Puzzle:
 	Given 10 identical bottles of identical pills (each bottle contains 100 pills).
 	 Out of 10 bottles 9 have 1 gram of pills but 1 bottle has pills of the weight of 1.1 gram. 
 	 Given a measurement scale, how would you find the heavy bottle? You can use the scale only once. 
