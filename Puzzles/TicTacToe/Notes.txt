@@ -1,0 +1,22 @@
+PUZZLE:
+- The game of Tic-Tac-Toe is being played between two players and it is in the state
+  as shown in picture after six moves.
+
+Can you answer following questions?
+- Who will win the game, O or X?
+- Which was the sixth mark and at which position?
+Assume that both the players are intelligent enough.
+
+SOLUTION:
+olution:
+
+X will win the game. The sixth mark was O in square 8.
+
+Explanation:
+
+If X places at position 5 (middle-center), it completes a vertical line:
+Positions 1 (X), 4 (X), 5 (X) → X wins
+
+If X places at position 6 or 3, no immediate 3 in a row.
+
+So, X wins on the 7th move by placing at position 5.
