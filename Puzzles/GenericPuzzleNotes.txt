@@ -50,4 +50,34 @@ Solution:
 	. Year 1300 => Possible since that will make day 31 (valid day)
 	. 1380 -> 08/31 -> valid date as 31st august in MMDD Format
 	Hence last palindrome date = 08/31/1380
+
+Puzzle:
+	How can you represent days of month using two 6 sided dice? 
+	You can write one number on each face of the dice from 0 to 9 and you have to represent days from 1 to 31, 
+	for example for 1, one dice should show 0 and another should show 1, similarly for 29 one 
+	dice should show 2 and another should show 9. 
+
+Solution:
+
+	0 will be on both sides to represent 01 and 10..
+
+    1 will repeat for 11
+    2 will repeat for 22
+
+    we need (0, 1, 2) on both dice
+	we need 3 on just one dice
+	Onde dice need all the numbers here from 0-9 to represent 10-19..
+	Other dice needs only 0, 1, 2 
+
+	But we have only 6+6 sides on both dice
+	Here we get (0, 1, 2) + (0-9)
+                    3 + 10
+
+	1 extra side can be saved by reusing 9 as 6 and vice-versa
+
+
+	Dice1: 0, 1, 2, 3, 4, 5
+	Dice2: 0, 1, 2, 6, 7, 8
+
+
 	
