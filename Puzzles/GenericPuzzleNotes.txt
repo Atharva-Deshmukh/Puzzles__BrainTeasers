@@ -17,6 +17,35 @@
 										--------------------
 
 Puzzle:
+You’re in a car with a helium balloon on a string that is tied to the floor. 
+The windows are closed. When you step on the accelerator, what happens to the 
+balloon—does it move forward, move backward, or stay put?
+
+Solution:
+The correct answer is: Forward.
+
+Here's the explanation:
+This puzzle is a great test of intuition about physics, especially fluid dynamics and 
+buoyancy.
+
+Setup:
+You're in a closed car.
+There's a helium balloon tied to the floor.
+Helium is lighter than air, so the balloon floats.
+The car is stationary, and then you accelerate forward.
+What happens when the car accelerates?
+When the car accelerates forward:
+
+The air inside the car is pushed backward due to inertia (just like you feel pushed 
+back into your seat).This creates a higher air pressure at the back of the car and 
+lower pressure at the front.Now, because helium is lighter than air, the balloon 
+behaves opposite to how heavier objects behave:
+
+Heavier objects (like you) are pushed backward.
+But the balloon, being buoyant, is pushed forward, toward the lower pressure area.
+So: Balloon moves forward when the car accelerates.
+
+Puzzle:
       Can 2 persons be with same number of hairs on their heads?
 	  One day Ram and Shyam were searching Google for finding what is the maximum number of hairs 
 	  on the human head. They found that it is 2, 00, 000. Then Shyam thought a while and suddenly 
