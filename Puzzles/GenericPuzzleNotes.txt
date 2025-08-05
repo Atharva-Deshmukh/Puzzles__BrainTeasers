@@ -48,6 +48,44 @@ But the balloon, being buoyant, is pushed forward, toward the lower pressure are
 So: Balloon moves forward when the car accelerates.
 
 Puzzle:
+A Bear has fallen from a height of 10m from ground. It reached ground in sqrt(2) seconds. 
+Luckily it didn’t get hurt. What color is the bear?
+
+Just output the color. For example, following are acceptable answers.
+	White
+	Black
+	Pink
+	Brown
+	Yellow
+	Red
+	Blue
+	Green
+
+Solution:
+
+White
+
+This puzzle is a classic riddle that plays on physics and geography. 
+Here's the reasoning:
+
+The bear falls from a height of 10 meters and reaches the ground in √2 seconds.
+Using the physics formula for free fall:
+h = (g * (t) ^2) / 2 => half gt square
+
+Plugging in the values:
+​
+g = 10 m/s², which is not the standard gravitational acceleration on Earth 
+(which is approximately 9.8 m/s²), but exactly 10 m/s².
+This value of gravitational acceleration is only found near the poles, 
+and more precisely, at the North Pole.
+
+The only species of bear found at the North Pole is the polar bear, 
+which is white in color.
+
+So, the answer is: White.
+
+
+Puzzle:
       Can 2 persons be with same number of hairs on their heads?
 	  One day Ram and Shyam were searching Google for finding what is the maximum number of hairs 
 	  on the human head. They found that it is 2, 00, 000. Then Shyam thought a while and suddenly 
