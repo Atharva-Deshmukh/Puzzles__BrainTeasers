@@ -17,6 +17,41 @@
 										--------------------
 
 Puzzle:
+Suppose that there is a unit square. There are four cats sitting at the four 
+different corners of the square. Each of those cats start chasing the other 
+cat in the clockwise direction. The speed of the cats are same and constant 
+and they continuously change their direction in a manner that they are 
+always heading straight to the other cat. How long will it take for the cats to catch each other?
+Assume that each cat is running at 1 unit speed.
+
+Solution:
+
+Questions to ask to the interviewer:
+- Will the cats follow strictly square path, or they can break the square path and move towards 
+  center of the square
+
+If strict square path is followed: Cats can never meet each other, since speeds are always same
+
+If strict square path is not followed, then cats will eventually follow spiral path,
+each cat is always facing towards another, and they will eventually meet at the center
+
+Intially, cats were at corner of the square each,
+Distance to cover = center of square = half the diagonal = a (root 2) / 2 => 1 / (root 2) 
+Distac
+
+Cat's speed is having two vectors, 
+One toward the center of the square.
+One tangential, which keeps the cat moving in a spiral.
+The net speed given = 1
+speed towards center (contributing to actual meeting of cats) = 1 * cos 45 degrees = 1 * (1 / (root2))
+
+Hence time = Distance      (1/ (root 2))
+             --------     --------------   = 1
+			  speed        (1/ (root 2))
+
+			  
+
+Puzzle:
 You’re in a car with a helium balloon on a string that is tied to the floor. 
 The windows are closed. When you step on the accelerator, what happens to the 
 balloon—does it move forward, move backward, or stay put?
