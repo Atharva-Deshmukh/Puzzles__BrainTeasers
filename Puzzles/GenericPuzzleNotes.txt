@@ -14,7 +14,12 @@
 -  One year can have only one palindrome date as the year fixes the month and date too.
 
 										PUZZLE-WISE Solutions
+	
 										--------------------
+
+TODO: 
+- Get mathematical proof for this puzzle:
+Puzzle | How to Measure 45 minutes using two identical wires?
 
 Puzzle:
 A man works on the 10-th floor and takes the elevator down to ground level at the end of the day. 
