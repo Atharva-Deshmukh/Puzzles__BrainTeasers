@@ -14,8 +14,35 @@
 -  One year can have only one palindrome date as the year fixes the month and date too.
 
 										PUZZLE-WISE Solutions
-	
-										--------------------
+										---------------------
+
+
+
+Puzzle: Pay an employee using a gold rod of 7 units ?
+An employee works for an employer for 7 days. The employer has a gold rod of 7 units length. 
+How does the employer pay the employee, so that the number of employees’ rod units increases
+by one at the end of each day? The employer can make at most 2 cuts in the rod. 
+
+Solution: 
+
+ASK INTERVIEWER: 
+- Can I take back the given gold pieces and exchange them?
+- Should the employee have total gold each day according to the day number?
+  day - 3 => should have 3 units?
+
+Min 2 cuts = 3 pieces
+These 3 pieces should be such that combination of sums = 1, 2, 3, 4, 5, 6, 7
+Hence after hit and trial => 3 pieces = 1 unit, 2 unit and 4 unit
+
+Day1 => 1 unit => 1
+Day2 => 1 unit => Take back 1 unit gold piece => give 2 unit gold piece
+Day3 => 1 unit => Give 1 unit to make total 3 units
+Day4 => 1 unit => take back 1, 2 units => Give 4 unit gold bar
+Day5 => 1 unit => give 1 unit to make 5 units
+Day6 => 1 unit => take back 1 unit and give 2 units
+Day7 => 1 unit => give 1 unit back
+
+------------------------------------------------------------------------------------------------------
 
 TODO: 
 - Get mathematical proof for this puzzle:
