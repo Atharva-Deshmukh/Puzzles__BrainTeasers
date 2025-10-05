@@ -13,10 +13,9 @@
 
 -  One year can have only one palindrome date as the year fixes the month and date too.
 
+										
 										PUZZLE-WISE Solutions
 										---------------------
-
-
 
 Puzzle: Pay an employee using a gold rod of 7 units ?
 An employee works for an employer for 7 days. The employer has a gold rod of 7 units length. 
@@ -41,6 +40,47 @@ Day4 => 1 unit => take back 1, 2 units => Give 4 unit gold bar
 Day5 => 1 unit => give 1 unit to make 5 units
 Day6 => 1 unit => take back 1 unit and give 2 units
 Day7 => 1 unit => give 1 unit back
+
+------------------------------------------------------------------------------------------------------
+Puzzle: Find the fastest 3 horses
+There are 25 horses among which you need to find out the fastest 3 horses. You can conduct a race among 
+at most 5 to find out their relative speed. At no point can you find out the actual speed of the horse 
+in a race.
+Find out the minimum no. of races which are required to get the top 3 horses.
+
+Solution:
+
+Make group of 5 horses and run 5 races. 
+Suppose five groups are [a, b, c, d, e] and next alphabet is its individual rank in this group (of 5 horses).
+for eg. d3 means horse in group d and has rank 3rd in his group. 
+[ 5 RACES DONE ] 
+
+a1 b1 c1 d1 e1 
+a2 b2 c2 d2 e2 
+a3 b3 c3 d3 e3 
+a4 b4 c4 d4 e4 
+a5 b5 c5 d5 e5 
+
+Now make a race of (a1,b1,c1,d1,e1), all firsts in each group.
+Let result = a1 > b1 > c1 > d1 > e1 
+[ 6 RACES DONE ] 
+
+a1 is undoubtedly the 1st
+
+But b1 is not the 2nd for sure.
+we won't compare all seconds with b1 to get the final 2nd.
+b2 lost to b1
+b1 lost to a1
+hence b2 and others c2, d2 and e2 are not in the race
+a2 can be second since a2 and b1 both lost to a1.
+
+
+Similarly, c1 is not the 3rd for sure.
+Possible candidates for 3rd position - c1, b2 and a3
+
+Hence, we will race b1, a2, c1, b2 and a3 to get final 2nd and 3rd
+
+[ 7 RACES DONE ] 
 
 ------------------------------------------------------------------------------------------------------
 
